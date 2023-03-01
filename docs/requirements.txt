@@ -1,0 +1,6 @@
+recommonmark
+nbsphinx
+sphinx_rtd_theme
+sphinx-last-updated-by-git
+sphinx
+sphinx-markdown-tables
