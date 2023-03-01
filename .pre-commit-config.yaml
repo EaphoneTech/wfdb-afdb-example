@@ -1,0 +1,11 @@
+repos:
+  - repo: https://e.coding.net/xinxiangsui/github-mirrors/black.git
+    rev: 23.1.0
+    hooks:
+      - id: black
+        language_version: python3
+  - repo: https://e.coding.net/xinxiangsui/github-mirrors/isort.git
+    rev: 5.12.0
+    hooks:
+      - id: isort
+        args: ['--profile', 'black', '--project', 'eaphone', '--filter-files']
