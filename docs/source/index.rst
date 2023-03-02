@@ -10,5 +10,5 @@ wfdb-afdb-example
    :maxdepth: 3
    :caption: 目录
 
+   setup
    pipeline
-
